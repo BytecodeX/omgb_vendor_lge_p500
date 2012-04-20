@@ -74,6 +74,7 @@ PRODUCT_COPY_FILES += \
 
 ## OMX
 PRODUCT_COPY_FILES += \
+    vendor/lge/p500/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/lge/p500/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/p500/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/lge/p500/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
